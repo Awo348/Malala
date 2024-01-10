@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,600&display=swap");
+
+@font-face {
+  font-family: "Salsa";
+  src: url("../assets/Salsa/Salsa-Regular.ttf")
+    format("truetype");
+}
+
+:root {
+  --main-color: #b81c4b;
+  --main-color-dark: #7e101;
+  --white-color: #fff;
+  --black-color: #000;
+  --box-shadow: 10px 2px 5px rgba(0, 0, 0, 0.05);
+  --gradient: linear-gradient(
+    to right,
+    rgba(29, 26, 27, 0.5),
+    rgba(29, 26, 27, 0.5)
+  );
+
+  --gradient-gray: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.664),
+    rgba(0, 0, 0, 0.664)
+  );
+}
+
+.salsa {
+  font-family: "Salsa";
+}
+
+.focus {
+  color: #b81c4b;
+  border-bottom: 1px solid #b81c4b;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.black {
+  color: black;
+}
+

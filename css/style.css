@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HOME STYLING */
+/* ============ */
+/* ============ */
+/* ============ */
+
+/* Navigation Starts */
+nav {
+  background: whitesmoke;
+  color: black;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.navigation {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation .navigate img {
+  width: 50px;
+}
+
+.navigation .navigate .link {
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0px 10px;
+  padding: 6px 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: all 0.5s ease;
+}
+
+.navigation .navigate .link:hover {
+  color: #b81c4b;
+  border-bottom: 1px solid #b81c4b;
+}
+
+.navigation .navigate:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation .navigate:last-child a {
+  padding: 0px 8px;
+}
+
+.navigation .navigate a i {
+  font-size: 18px;
+  color: #0070ba;
+  transition: all 0.2s ease;
+}
+
+.navigation .navigate a i:hover {
+  color: #b81c4b;
+}
+/* Navigation Ends */
+
+/* Hero Starts */
+.hero {
+  height: 100vh;
+  padding-top: 100px;
+  background: var(--gradient), url("../assets/imgs/model.jpg");
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+}
+
+.hero .back {
+  width: 40%;
+  margin: auto 20px auto auto;
+}
+
+.hero .back .text {
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 100;
+  letter-spacing: -3px;
+}
+
+.hero .back .text .hero-text {
+  /* font-size: calc(1.8rem + 4vmin); */
+  font-weight: 600;
+  font-size: 70px;
+  color: var(--main-color);
+  font-family: serif;
+  font-style: italic;
+  line-height: 1.2;
+}
+/* Hero Ends */
+
+/* Blog Starts */
+.history {
+  padding: 50px 0px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.history .content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.history .content {
+  width: 55%;
+}
+
+.history .content p {
+  text-align: justify;
+  padding: 5px 0px;
+  font-size: 18px;
+}
+
+.history .image {
+  width: 40%;
+}
+
+.history .image img {
+  width: 100%;
+}
+
+.vlog {
+  background: var(--gradient-gray), url("../assets/imgs/blog.jpg");
+  background-size: cover;
+  color: white;
+  padding: 50px 0px;
+  background-attachment: fixed;
+}
+
+.final {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.final-flex {
+  width: 48%;
+}
+
+.final p {
+  text-align: justify;
+  font-size: 18px;
+  padding: 5px 0px;
+}
+/* Blog Ends */
+
+/* ================= */
+/* ================= */
+/* HOME STYLING ENDS */
+
+/* WHY STYLING BEGINS */
+/* =================== */
+/* =================== */
+/* =================== */
+
+.why-hero {
+  height: 80vh;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  background: var(--gradient), url("../assets/imgs/why.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.why-hero .why-text {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.why-hero .why-text h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: white;
+  outline: none;
+  text-align: center;
+}
+
+.why-hero .why-text h1:hover {
+  font-variation-settings: "wght" 582;
+  letter-spacing: 1px;
+}
+
+.why-content {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.why-content p {
+  font-size: 20px;
+  text-align: justifys;
+}
