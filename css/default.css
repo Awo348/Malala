@@ -2,8 +2,7 @@
 
 @font-face {
   font-family: "Salsa";
-  src: url("../assets/Salsa/Salsa-Regular.ttf")
-    format("truetype");
+  src: url("../assets/Salsa/Salsa-Regular.ttf") format("truetype");
 }
 
 :root {
@@ -14,8 +13,8 @@
   --box-shadow: 10px 2px 5px rgba(0, 0, 0, 0.05);
   --gradient: linear-gradient(
     to right,
-    rgba(29, 26, 27, 0.5),
-    rgba(29, 26, 27, 0.5)
+    rgba(29, 26, 27, 0.7),
+    rgba(29, 26, 27, 0.7)
   );
 
   --gradient-gray: linear-gradient(
@@ -23,6 +22,33 @@
     rgba(0, 0, 0, 0.664),
     rgba(0, 0, 0, 0.664)
   );
+}
+
+.banner {
+  height: 80vh;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.edge {
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: white;
+  outline: none;
+  text-align: center;
+}
+
+.edge:hover {
+  font-variation-settings: "wght" 582;
+  letter-spacing: 1px;
 }
 
 .salsa {
@@ -41,4 +67,3 @@
 .black {
   color: black;
 }
-
