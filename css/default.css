@@ -24,6 +24,11 @@
   );
 }
 
+.brown {
+  color: #b81c4b;
+  font-style: italic;
+}
+
 .banner {
   height: 80vh;
   padding-top: 80px;
@@ -67,3 +72,5 @@
 .black {
   color: black;
 }
+
+

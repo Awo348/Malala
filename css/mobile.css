@@ -1,0 +1,74 @@
+@media screen and (max-width: 851px) {
+  .hero {
+    /* height: 40vh; */
+    padding-top: 100px;
+  }
+
+  .hero .back {
+    width: 90%;
+  }
+
+  .hero .back .text {
+    color: whitesmoke;
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  .hero .back .text .hero-text {
+    font-size: 50px;
+  }
+
+  .history .content {
+    width: 100%;
+  }
+
+  .history .image {
+    width: 100%;
+  }
+
+  .final-flex {
+    width: 100%;
+  }
+
+  .edge {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  .banner {
+    height: 60vh;
+    padding-top: 80px;
+  }
+
+  .why-content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .container {
+    height: 50vh;
+  }
+
+  .box > img {
+    width: 100%;
+  }
+
+  .box:hover {
+    flex: 1 1 50%;
+  }
+
+  .box:hover > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-list li {
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    position: relative;
+    cursor: pointer;
+  }
+}

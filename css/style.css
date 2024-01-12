@@ -24,6 +24,7 @@ nav {
   position: fixed;
   width: 100%;
   padding: 10px 0px;
+  z-index: 100;
 }
 
 .navigation {
@@ -116,6 +117,7 @@ nav {
   width: 90%;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -153,6 +155,7 @@ nav {
   width: 90%;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -167,11 +170,66 @@ nav {
 }
 /* Blog Ends */
 
+/* Footer section starts here */
+
+footer {
+  background: #981733;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.footer-copyright {
+  align-self: center;
+}
+
+.footer-icon__holder {
+  font-weight: 500;
+  display: flex;
+}
+
+.footer-icons {
+  color: whitesmoke;
+  /* display: block; */
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.footer-icons a {
+  color: whitesmoke;
+  transition: all 0.2s ease;
+}
+
+.footer-icons a:hover {
+  font-size: 25px;
+}
+
+.footer-button__holder button {
+  padding: 15px 20px;
+  background: transparent;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.footer-button__holder button:hover {
+  background: whitesmoke;
+  color: #b81c4b;
+}
+
+/* Footer section ends here */
+
 /* ================= */
 /* ================= */
 /* HOME STYLING ENDS */
-
-
 
 /* WHY STYLING BEGINS */
 /* =================== */
@@ -195,18 +253,22 @@ nav {
 
 .why-content p {
   font-size: 20px;
-  text-align: justifys;
+  text-align: justify;
+  padding: 10px 0px;
 }
 
 /* ================ */
 /* ================ */
 /* WHY STYLING ENDS */
 
-
 /* GALLERY STYLING BEGINS */
 /* ====================== */
 /* ====================== */
 /* ====================== */
+
+.images {
+  padding-bottom: 50px;
+}
 
 .gallery-hero {
   background: var(--gradient), url("../assets/imgs/gallery.jpg");
@@ -219,17 +281,20 @@ nav {
 
 .container {
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
   padding: 4% 2%;
   box-sizing: border-box;
   height: 100vh;
+  padding: 50px 0px 0px 0px;
 }
 
 .box {
   flex: 1;
   overflow: hidden;
   transition: 0.5s;
-  margin: 0 2%;
+  margin: 0 1%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
   line-height: 0;
 }
@@ -238,12 +303,12 @@ nav {
   width: 200%;
   height: calc(100% - 10vh);
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: 0.5s;
 }
 
 .box > span {
-  font-size: 3.8vh;
+  font-size: 1.8vh;
   display: block;
   text-align: center;
   height: 10vh;
@@ -257,4 +322,102 @@ nav {
 .box:hover > img {
   width: 100%;
   height: 100%;
+}
+
+/* Body & Image List Styles */
+
+.img-list {
+  list-style: none;
+  width: 90%;
+  padding: 3% 1%;
+  margin: 0 auto;
+  /* padding-bottom: 50px; */
+}
+.img-list li {
+  border: 5px solid transparent;
+  box-sizing: border-box;
+  width: 33.33%;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+.img-list img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* Image Placeholder Styles */
+.img-placeholder:before,
+.img-placeholder:after {
+  padding-top: 33.33%;
+  content: "";
+  display: block;
+}
+.img-placeholder {
+  background: #222;
+  box-shadow: 0 0 0 8px #222 inset, 0 0 0 9px #333 inset;
+  color: #444;
+  line-height: 0;
+  text-align: center;
+  display: block;
+}
+
+/* The hover effect
+  -------------------------------------------------------------- */
+.img-list li:before {
+  transition: all 0.5s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #333;
+  transform: scale(0);
+}
+.img-list li:hover:before {
+  opacity: 0.5;
+  transform: scale(1);
+}
+.img-list li:after {
+  transition: all 0.6s ease 0.2s;
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  border: 1px solid #aaa;
+  background: #000;
+  opacity: 0;
+  transform: scale(0);
+}
+.img-list li:hover:after {
+  opacity: 0.35;
+  transform: scale(1);
+}
+
+.red {
+  width: 90%;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  height: 20vh;
+}
+
+/* ==================== */
+/* ==================== */
+/* GALLERY STYLING ENDS */
+
+/* WORK STYLING BEGINS */
+/* =================== */
+/* =================== */
+/* =================== */
+
+.work-hero {
+  background: var(--gradient), url("../assets/imgs/work.jpg");
+}
+
+.work-hero .work-text {
+  width: 90%;
+  margin: 0 auto;
 }
