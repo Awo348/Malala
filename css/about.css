@@ -117,3 +117,53 @@ $hero-bg-mix: rgba(#29042f, 0.4); // hide with false */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }
+
+
+.about {
+  padding: 60px 0px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-hero .about-content {
+  width: 58%;
+}
+
+
+.about-hero .about-img img {
+  width: 70%;
+}
+
+.small {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(128, 128, 128, 0.527);
+}
+
+.title {
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.host {
+  padding: 5px 0px;
+  text-align: justify;
+}
+
+.policy {
+  width: 90%;
+  padding: 50px 0px;
+  margin: 0 auto;
+}
+
+.policy > p {
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+}
