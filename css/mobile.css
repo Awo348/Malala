@@ -4,6 +4,14 @@
     padding-top: 100px;
   }
 
+  .nav-mobile {
+    display: flex;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
   .hero .back {
     width: 90%;
   }
@@ -42,6 +50,26 @@
 
   .why-content {
     width: 80%;
+  }
+
+  .about-hero .about-content {
+    width: 100%;
+  }
+
+  .about-hero .about-img img {
+    width: 100%;
+  }
+
+  .about-hero .about-vision {
+    width: 100%;
+  }
+
+  .policy > p {
+    width: 90%;
+  }
+
+  .feal {
+    font-size: 20px;
   }
 }
 

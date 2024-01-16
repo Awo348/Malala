@@ -423,3 +423,16 @@ footer {
 }
 
 
+/* FAMILY STYLING BEGINS */
+/* =================== */
+/* =================== */
+/* =================== */
+
+.family-hero {
+  background: var(--gradient), url("../assets/imgs/family.jpg");
+}
+
+.family-hero .work-text {
+  width: 90%;
+  margin: 0 auto;
+}

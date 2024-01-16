@@ -5,44 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/default.css" />
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
     <title>Resilence</title>
   </head>
   <body>
+    <div class="backdrop" onclick="Addclass()"></div>
     <div class="body">
       <!-- Navigation Starts -->
-      <nav>
-        <div class="navigation">
-          <div class="navigate">
-            <a href="/">
-              <img src="assets/imgs/logo.png" alt="logo" />
-            </a>
-          </div>
+      <nav class="nav-mobile">
+        <div class="nav-mobile__brand">
+          <span>EXPLORER</span>
+        </div>
 
-          <div class="navigate">
-            <a href="about.html" class="link black">About Me</a>
-            <a href="why.html" class="link black">Why</a>
-            <a href="gallery.html" class="link black">Gallery</a>
-            <a href="education.html" class="link black">Education</a>
-            <a href="fun.html" class="link black">Fun Fact</a>
-            <a href="work.html" class="link black">Work</a>
-            <a href="family.html" class="link black">Family</a>
-          </div>
+        <div class="hamburger-menu" onclick="Addclass()">
+          <div class="menubars"></div>
+        </div>
 
-          <div class="navigate">
-            <a href="https://en.wikipedia.org/wiki/Malala_Yousafzai">
-              <i class="fa-brands fa-wikipedia-w"></i>
-            </a>
+        <div class="mobile__link-holder">
+          <ul>
+            <li>
+              <a href="#home" class="mobile__header-links active-link">Home</a>
+            </li>
+            <li><a href="#about" class="mobile__header-links">About</a></li>
+            <li><a href="#contact" class="mobile__header-links">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
-            <a href="https://twitter.com/Malala">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
+      <!-- Desktop Navbar starts here -->
+      <nav class="nav-desktop">
+        <div class="header-logo">
+          <span>EXPLORER</span>
+        </div>
 
-            <a href="https://www.instagram.com/malala/">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </div>
+        <div class="link-holder">
+          <ul>
+            <li><a href="#home" class="header-links">Home</a></li>
+            <li><a href="#about" class="header-links">About</a></li>
+            <li><a href="#contact" class="header-links">Contact</a></li>
+          </ul>
         </div>
       </nav>
       <!-- Navigation Ends -->
@@ -269,5 +272,7 @@
       </footer>
       <!-- Footer Section Ends -->
     </div>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
