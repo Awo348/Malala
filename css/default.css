@@ -24,6 +24,17 @@
   );
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.log {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 .brown {
   color: #b81c4b;
   font-style: italic;
