@@ -10,6 +10,20 @@
     <title>Gallery - Malala Yousafzai</title>
   </head>
   <body>
+    <div class="backdrop">
+      <div class="navigate_flex">
+        <button class="x_btn">
+          <i class="fa-solid fa-xmark x"></i>
+        </button>
+
+        <a href="about.html" class="">About Us</a>
+        <a href="why.html" class="">Why</a>
+        <a href="gallery.html" class="">Gallery</a>
+        <a href="fun.html" class="">Fun Fact</a>
+        <a href="work.html" class="">Work</a>
+        <a href="family.html" class="">Family</a>
+      </div>
+    </div>
     <div class="body">
       <!-- Navigation Starts -->
       <nav>
@@ -20,7 +34,7 @@
             </a>
           </div>
 
-          <div class="navigate">
+          <div class="navigate hide">
             <a href="about.html" class="link black">About Us</a>
             <a href="why.html" class="link black">Why</a>
             <a href="gallery.html" class="link focus">Gallery</a>
@@ -41,6 +55,12 @@
             <a href="https://www.instagram.com/malala/">
               <i class="fa-brands fa-instagram"></i>
             </a>
+          </div>
+
+          <div class="navigate show">
+            <button class="show_btn" onclick="Addclass()">
+              <i class="fa-solid fa-bars brown"></i>
+            </button>
           </div>
         </div>
       </nav>
@@ -148,5 +168,6 @@
       </footer>
       <!-- Footer Section Ends -->
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>

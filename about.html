@@ -6,11 +6,25 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/about.css" />
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
     <title>About - Resilence</title>
   </head>
   <body>
+    <div class="backdrop">
+      <div class="navigate_flex">
+        <button class="x_btn">
+          <i class="fa-solid fa-xmark x"></i>
+        </button>
+
+        <a href="about.html" class="">About Us</a>
+        <a href="why.html" class="">Why</a>
+        <a href="gallery.html" class="">Gallery</a>
+        <a href="fun.html" class="">Fun Fact</a>
+        <a href="work.html" class="">Work</a>
+        <a href="family.html" class="">Family</a>
+      </div>
+    </div>
     <div class="body">
       <!-- Navigation Starts -->
       <nav>
@@ -21,10 +35,10 @@
             </a>
           </div>
 
-          <div class="navigate">
-            <a href="about.html" class="link focus">About Us</a>
+          <div class="navigate hide">
+            <a href="about.html" class="link black">About Us</a>
             <a href="why.html" class="link black">Why</a>
-            <a href="gallery.html" class="link black">Gallery</a>
+            <a href="gallery.html" class="link focus">Gallery</a>
             <a href="fun.html" class="link black">Fun Fact</a>
             <a href="work.html" class="link black">Work</a>
             <a href="family.html" class="link black">Family</a>
@@ -42,6 +56,12 @@
             <a href="https://www.instagram.com/malala/">
               <i class="fa-brands fa-instagram"></i>
             </a>
+          </div>
+
+          <div class="navigate show">
+            <button class="show_btn" onclick="Addclass()">
+              <i class="fa-solid fa-bars brown"></i>
+            </button>
           </div>
         </div>
       </nav>
@@ -220,14 +240,14 @@
         </p>
       </div>
 
-       <!-- Footer Section Starts -->
-       <footer>
+      <!-- Footer Section Starts -->
+      <footer>
         <div class="footer-copyright">&copy;2022</div>
 
         <div class="footer-icon__holder">
           <span class="footer-icons">
             <a href="https://linkedin.com/in/harwo348" target="_blank">
-              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-facebook-f"></i>
             </a>
           </span>
 
@@ -252,5 +272,6 @@
       </footer>
       <!-- Footer Section Ends -->
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>

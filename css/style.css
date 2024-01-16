@@ -17,6 +17,43 @@ body {
 /* ============ */
 /* ============ */
 
+.backdrop {
+  background: rgba(0, 0, 0, 0.767);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.x_btn {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.x {
+  padding: 10px;
+}
+
+.backdrop .navigate_flex {
+  display: flex;
+  /* padding-top: 100px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.backdrop .navigate_flex a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 20px 0px;
+}
+
 /* Navigation Starts */
 nav {
   background: whitesmoke;
@@ -25,6 +62,13 @@ nav {
   width: 100%;
   padding: 10px 0px;
   z-index: 100;
+}
+
+.show_btn {
+  padding: 7px;
+  cursor: pointer;
+  border: 1px solid #981733;
+  border-radius: 3px;
 }
 
 .navigation {
@@ -37,6 +81,17 @@ nav {
 
 .navigation .navigate img {
   width: 50px;
+}
+
+.link_holder {
+  /* display: none; */
+  width: 100%;
+  height: 250px;
+  position: fixed;
+  /* background: var(--main-color); */
+  right: 0;
+  top: 75px;
+  /* padding-left: 15px; */
 }
 
 .navigation .navigate .link {
@@ -54,13 +109,13 @@ nav {
   border-bottom: 1px solid #b81c4b;
 }
 
-.navigation .navigate:last-child {
+.navigation .navigate:nth-child(3) {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.navigation .navigate:last-child a {
+.navigation .navigate:nth-child(3) a {
   padding: 0px 8px;
 }
 
@@ -421,7 +476,6 @@ footer {
   width: 90%;
   margin: 0 auto;
 }
-
 
 /* FAMILY STYLING BEGINS */
 /* =================== */

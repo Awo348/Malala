@@ -4,12 +4,16 @@
     padding-top: 100px;
   }
 
-  .nav-mobile {
-    display: flex;
+  .hide {
+    display: none;
   }
 
-  .nav-desktop {
-    display: none;
+  .show {
+    display: block;
+  }
+
+  .navigation .navigate img {
+    width: 30px;
   }
 
   .hero .back {

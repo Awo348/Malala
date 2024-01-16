@@ -1,10 +1,11 @@
-// ES5 function declartion
-var hamburger = document.querySelector('.hamburger-menu')
-var mobilelinks = document.querySelector('.mobile__link-holder')
-var backdrop = document.querySelector('.backdrop')
+var popLink = document.querySelector(".show_btn");
+popLink.addEventListener("click", function () {
+  document.querySelector(".backdrop").style.display = "flex";
+  // document.querySelector(".form_holder").style.display = "none";
+});
 
-function Addclass() {
-    hamburger.classList.toggle('show')
-    mobilelinks.classList.toggle('showlinks')
-    backdrop.classList.toggle('showlinks')
-}
+var popClose = document.querySelector(".x_btn");
+popClose.addEventListener("click", function () {
+  document.querySelector(".backdrop").style.display = "none";
+  // document.querySelector(".form_holder").style.display = "none";
+});
