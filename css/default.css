@@ -17,6 +17,12 @@
     rgba(29, 26, 27, 0.7)
   );
 
+  --gradients: linear-gradient(
+    to right,
+    rgba(29, 26, 27, 0.9),
+    rgba(29, 26, 27, 0.9)
+  );
+
   --gradient-gray: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.664),
@@ -33,6 +39,8 @@
 .log {
   font-weight: 500;
   text-transform: uppercase;
+  color: #b81c4b;
+  text-decoration: none;
 }
 
 .brown {
@@ -91,5 +99,3 @@
 .black {
   color: black;
 }
-
-
