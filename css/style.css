@@ -363,13 +363,13 @@ footer {
   transition: 0.5s;
 }
 
-.box > span {
+/* .box > span {
   font-size: 1.8vh;
   display: block;
   text-align: center;
-  height: 10vh;
+  height: 5vh;
   line-height: 2.6;
-}
+} */
 
 .box:hover {
   flex: 1 1 50%;
