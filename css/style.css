@@ -430,6 +430,15 @@ nav {
   margin: 0 auto;
 }
 
+.blog-hero {
+  background: var(--gradient), url("https://scontent.flos1-1.fna.fbcdn.net/v/t39.30808-6/329010801_539838658214029_9159108346595568955_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeFe86MBbj_Z8AfU-ZP9t5nZUo6_1JJUHMZSjr_UklQcxsHYjnoTmh_fKnTmfb3eRR30XoVhASrvGQTQWcR-LFco&_nc_ohc=bShFxL6TLXAAX8kDVQr&_nc_zt=23&_nc_ht=scontent.flos1-1.fna&oh=00_AfCB3dLV05_VzHS4Wp83VZA9vm_gXVboGKSZWfD5fFuPdQ&oe=65AE5DC4");
+}
+
+.blog-hero .work-text {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* FAMILY STYLING BEGINS */
 /* =================== */
 /* =================== */
