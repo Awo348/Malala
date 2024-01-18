@@ -92,7 +92,7 @@
   position: absolute;
   top: 150px;
   left: -1.8%;
-  z-index: 100;
+  z-index: 10;
 }
 
 .item-header .vertical-part {
@@ -163,7 +163,7 @@
     top: 10px;
     left: 0%;
     padding: 2%;
-    z-index: 100;
+    z-index: 10;
   }
 
   .item-description {

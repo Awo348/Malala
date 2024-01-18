@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
     <title>Resilience</title>
   </head>
@@ -32,20 +34,26 @@
       <nav>
         <div class="navigation">
           <div class="navigate">
-            <a href="/" class="flex links">
-              <img src="assets/imgs/logo.png" alt="logo" />
-              <span class="log">Resilience</span>
-            </a>
+            <div class="dropdown">
+              <button class="dropbtn flex links">
+                <img src="assets/imgs/logo.png" alt="logo" />
+                <span class="log">Resilience</span>
+              </button>
+              <div class="dropdown-content">
+                <a href="/">Home</a>
+                <a href="malala.html">Malala</a>
+                <a href="why.html">Why</a>
+                <a href="work.html">Work</a>
+                <a href="blog.html">Blog</a>
+                <a href="family.html">Family</a>
+              </div>
+            </div>
           </div>
 
           <div class="navigate hide">
-            <a href="malala.html" class="link black">Malala</a>
             <a href="about.html" class="link black">About Us</a>
-            <a href="why.html" class="link black">Why</a>
             <a href="gallery.html" class="link black">Gallery</a>
             <a href="fun.html" class="link black">Fun Fact</a>
-            <a href="work.html" class="link black">Work</a>
-            <a href="family.html" class="link black">Family</a>
           </div>
 
           <div class="navigate">
@@ -469,38 +477,12 @@
     </div>
 
     <!-- Footer Section Starts -->
-    <footer>
-      <div class="footer-copyright">
-        Alogba Toyin <span class="hide">&copy;2022</span>
-      </div>
-
-      <div class="footer-icon__holder">
-        <span class="footer-icons">
-          <a
-            href="https://web.facebook.com/alogbat?mibextid=ZbWKwL&_rdc=1&_rdr"
-            target="_blank"
-          >
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-        </span>
-
-        <span class="footer-icons">
-          <a href="https://www.instagram.com/alogbatoyin" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </span>
-      </div>
-
-      <div class="footer-button__holder">
-        <a href="mailto:resilence@gmail.com ">
-          <button>
-            Contact Developer <i class="fa-solid fa-angle-right"></i>
-          </button>
-        </a>
-      </div>
-    </footer>
+    
     <!-- Footer Section Ends -->
+   
+    </script>
     <script src="js/script.js"></script>
     <script src="js/nav.js"></script>
+    
   </body>
 </html>

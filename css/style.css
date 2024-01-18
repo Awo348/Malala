@@ -228,59 +228,6 @@ nav {
 
 /* Footer section starts here */
 
-footer {
-  background: #981733;
-  display: flex;
-  color: white;
-  justify-content: space-evenly;
-  padding: 10px 0;
-  align-items: center;
-}
-
-.footer-copyright {
-  align-self: center;
-}
-
-.footer-icon__holder {
-  font-weight: 500;
-  display: flex;
-}
-
-.footer-icons {
-  color: whitesmoke;
-  /* display: block; */
-  padding: 0 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 19px;
-  cursor: pointer;
-}
-
-.footer-icons a {
-  color: whitesmoke;
-  transition: all 0.2s ease;
-}
-
-.footer-icons a:hover {
-  font-size: 25px;
-}
-
-.footer-button__holder button {
-  padding: 15px 20px;
-  background: transparent;
-  border: 1px solid whitesmoke;
-  border-radius: 5px;
-  transition: all 0.2s ease;
-  color: whitesmoke;
-  cursor: pointer;
-}
-
-.footer-button__holder button:hover {
-  background: whitesmoke;
-  color: #b81c4b;
-}
-
 /* Footer section ends here */
 
 /* ================= */

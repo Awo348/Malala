@@ -80,21 +80,6 @@
     font-size: 20px;
   }
 
-  footer {
-    flex-direction: column;
-  }
-
-  .footer-copyright {
-    padding: 5px 0px;
-  }
-
-  .footer-icon__holder {
-    padding: 5px 0px;
-  }
-
-  .footer-button__holder {
-    padding: 5px 0px;
-  }
 }
 
 @media screen and (max-width: 601px) {
