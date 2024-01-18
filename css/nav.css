@@ -81,6 +81,7 @@
   position: absolute;
   top: 182px;
   right: 0;
+  z-index: 10;
   width: 50%;
   padding-right: 4%;
   line-height: 1.8;
@@ -138,7 +139,7 @@
 .controls ul {
   list-style: none;
 }
-
+ 
 .controls ul li {
   display: inline-block;
   width: 10px;
@@ -150,4 +151,24 @@
 
 .controls ul li.active {
   background: #6a6a77;
+}
+
+@media screen and (max-width: 851px) {
+  .item-image-container {
+    width: 100%;
+  }
+
+  .item-header {
+    position: absolute;
+    top: 10px;
+    left: 0%;
+    padding: 2%;
+    z-index: 100;
+  }
+
+  .item-description {
+    top: 60px;
+    width: 100%;
+    padding: 2%;
+  }
 }
