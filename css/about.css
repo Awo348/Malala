@@ -101,7 +101,7 @@ main {
 
 .card {
   width: 23rem;
-  height: 30rem;
+  height: 25rem;
   border-radius: 10px;
   margin: 5px 0px;
   overflow: hidden;
@@ -139,7 +139,7 @@ main {
   }
 
   p {
-    inset: auto auto 80px 30px;
+    inset: auto auto 30px 30px;
     text-align: justify;
   }
 
@@ -150,7 +150,7 @@ main {
   }
 
   &:hover h2 {
-    inset: auto auto 220px 30px;
+    inset: auto auto 150px 30px;
     transition: inset 0.3s ease-out;
   }
 

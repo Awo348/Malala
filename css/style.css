@@ -249,13 +249,19 @@ nav {
 }
 
 .why-content {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   padding: 50px 0px;
 }
 
-.why-content p {
-  font-size: 20px;
+.why-contents {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+.why-contents p {
+  /* font-size: 20px; */
   text-align: justify;
   padding: 10px 0px;
 }

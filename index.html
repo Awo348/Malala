@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/foot.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Arvo&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
     <title>Resilience</title>
   </head>
@@ -477,12 +481,142 @@
     </div>
 
     <!-- Footer Section Starts -->
-    
+    <div class="page-wrapper">
+      <div id="waterdrop"></div>
+      <footer>
+        <div class="foot">
+          <div class="foot1">
+            <h4 class="foot-title">Address</h4>
+
+            <div class="foot-content">
+              <p class="para">
+                Corporate Office : Doon House, B-275(A), First floor Sector-57,
+                Shushant Lok 3 Near Hong Kong Bazzar, Gurugram Pin 122001,
+                Haryana.
+              </p>
+              <div class="icon">
+                <p>Phone: +91-9122588799</p>
+              </div>
+            </div>
+
+            <div>
+              <p class="para">
+                Reg. Office : Doon House, D2/3, 4th Floor, Chandra Tower, IDBI
+                Bank Building Dimna Road, Mango, Jamshedpur-831012, Jharkhand.
+              </p>
+              <div class="icon">
+                <p>Phone: +91-9122588799</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="foot1">
+            <h4 class="foot-title">Recent News</h4>
+
+            <div class="foot2-content">
+              <div class="deal">
+                <a href="" class="">Want to start Your Own Play School.</a>
+                <p>Call: +91-9122588799</p>
+              </div>
+
+              <div class="deal">
+                <a href="" class="">Want to start Your Own Play School.</a>
+                <p>Call: +91-9122588799</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="foot1">
+            <h4 class="foot-title">Email Us</h4>
+
+            <div class="form">
+              <form action="">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Your Email"
+                  required
+                />
+                <textarea
+                  name=""
+                  id=""
+                  cols="20"
+                  rows="7"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                <button type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="foot1">
+            <h4 class="foot-title">Gallery</h4>
+            <div class="img-flex">
+              <div class="imf">
+                <img src="assets/imgs/amala.jpg" />
+                <img src="assets/imgs/amala.jpg" />
+                <img src="assets/imgs/amala.jpg" />
+              </div>
+              <div class="imf">
+                <img src="assets/imgs/amala.jpg" />
+                <img src="assets/imgs/amala.jpg" />
+                <img src="assets/imgs/amala.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="foot-down">
+          <div class="down-flex">
+            <div class="flex-down">
+              <p>2023 © Resilience</p>
+            </div>
+
+            <div class="flex-down">
+              <a href="#" class="li">Support</a>
+              <a href="#" class="li">Contact</a>
+              <a href="#" class="li">Disclaimer</a>
+            </div>
+
+            <div class="flex-down">
+              <a href="#" class="ico">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+              <a href="#" class="ico">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="ico">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
     <!-- Footer Section Ends -->
-   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
+
+    <script>
+      jQuery("#waterdrop").raindrops({
+        color: "#1c1f2f",
+        canvasHeight: 150,
+        density: 0.1,
+        frequency: 20,
+      });
     </script>
+
     <script src="js/script.js"></script>
     <script src="js/nav.js"></script>
-    
   </body>
 </html>
